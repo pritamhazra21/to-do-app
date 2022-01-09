@@ -64,7 +64,7 @@ body {
     padding: 10px;
     max-height: 60vh;
     height: max-content;
-    margin-top: 10px;
+    margin-top: 10px 0;
     border-bottom: 1px solid #ccc;
     /* background: red; */
     overflow-y: scroll;
@@ -78,6 +78,7 @@ body {
 
 .task{
     display: flex;
+    padding: 5px 0;
 }
 
 .task .b{
