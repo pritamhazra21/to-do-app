@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 100vh; */
+  }
+
+.wrapper {
+    width: 400px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  }
+
+.navbar{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    height: 60px;
+}
+
+.navbar h4{
+    width: 100%;
+}
+
+.navbar button{
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none; 
+}
+
+.navbar button:hover{
+    border: 1px solid rgb(230, 199, 199);
+    background-color: rgb(255, 243, 243);
+}
+
+
+.input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.list{
+    padding: 10px;
+    max-height: 60vh;
+    height: max-content;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    /* background: red; */
+    overflow-y: scroll;
+}
+
+#list-done{
+    text-decoration: line-through;
+    color: #ccc;
+    max-height: 20vh;
+}
+
+.task{
+    display: flex;
+}
+
+.task .b{
+    padding: 0 10px;
+}
+
+.bt-tick{
+    display: none;
+    color: greenyellow;
+}
+
+.b:hover .bt-bull{
+    display: none
+}
+.b:hover .bt-tick{
+    display: inline
+}
+
