@@ -53,6 +53,7 @@ body {
     height: 100%;
 }
 
+
 .input{
     height: 50px;
     width: 100%;
@@ -67,7 +68,7 @@ body {
     padding: 10px;
     max-height: 60vh;
     height: max-content;
-    margin-top: 10px 0;
+    margin: 10px 0;
     border-bottom: 1px solid #ccc;
     /* background: red; */
     overflow-y: scroll;
