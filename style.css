@@ -49,6 +49,9 @@ body {
     background-color: rgb(255, 243, 243);
 }
 
+.navbar button img{
+    height: 100%;
+}
 
 .input{
     height: 50px;
