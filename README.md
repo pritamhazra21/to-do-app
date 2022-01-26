@@ -1,3 +1,3 @@
 # to-do-app
 
-![alt text](./demo.png)
+![alt text](./demo.jpg)
